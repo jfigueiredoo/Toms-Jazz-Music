@@ -176,7 +176,11 @@ form input{
 }
 
 /* ----------- MEDIA QUERIES ----------- */
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 480px) {
+
+    body{
+        text-align: center;
+    }
     h1, h2 {
         font-size: 40px;
         line-height: 35px;
