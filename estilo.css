@@ -174,3 +174,84 @@ form input{
     margin-top: 30px;
     width: 225px;
 }
+
+/* ----------- MEDIA QUERIES ----------- */
+@media screen and (max-width: 768px) {
+    h1, h2 {
+        font-size: 40px;
+        line-height: 35px;
+        text-align: center;
+    }
+
+    .logo{
+        margin-left: 15px;
+    }
+
+    .button{
+        margin-right: 15px;
+    }
+
+    header nav {
+        width: 200px;
+    }
+
+    .img1 {
+        width: 500px;
+        margin-left: 40px;
+        margin-top: 25px;
+    }
+
+    p, .cards p {
+        font-size: 18px;
+    }
+
+    .cards {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card1, .card2{
+        width: 550px;
+        margin-top: 0px;
+    }
+
+    .card1 {
+        margin-bottom: 10px;
+    }
+
+    .nav {
+        margin-left: 20px;
+        font-size: 18px;
+   }
+
+    .principal {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .conhecer {
+        margin: 80px 10px;
+    }
+
+    form input {
+        width: 100%;
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer nav {
+        margin-left: 20px;
+        align-items: center;
+    }
+
+    .button3 {
+        margin-bottom: 20px;
+    }
+
+    .baixo{
+        display: flex;
+    }
+}
